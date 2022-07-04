@@ -69,6 +69,7 @@ a{
 }
 .title{
   font-size: 1.5rem;
+  padding: 2%;
 }
 #homepage{
   color: white;
@@ -80,4 +81,7 @@ a{
 }
 #homepage:hover{
   cursor: pointer;
+}
+#footer{
+  padding: 2%;
 }
