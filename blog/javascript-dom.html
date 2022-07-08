@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Fundementals</title>
+  <link rel="stylesheet" href="../styles/javascript-dom.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <body>
+    <div id="banner">
+      <h1>Javascript <br> Fundementals</h1>
+    </div>
+    <a href="https://luke-vankan.github.io/index.html">
+      <div id="homepage">Homepage</div>
+    </a>
+    <div id="content">
+      <h3 class="title">HTML, CSS and Javascript in relation to videogames.</h3>
+      
+        <div id="analogy">
+          <p class="imgp" id="htmlp">- HTML is the structure of the website, home to all the information displayed. similar to the base model when creating a video game character,
+            you start off with a bare character model which isn't much to look at but does what you want it to.
+          </p>
+          <img src="../images/game character html.jpg" alt="" id="htmlImg" class="img-size">
+          <p class="imgp" id="cssp">- From changing the colours and fonts to playing with the sizing and positioning, CSS is used to give life to a webpage. Similar to altering the
+            appearance of the character, playing with the bare model can work but it will be boring and you won't be immersed in the game which is essential to the experience</p>
+          <img src="../images/Fortnite-The-Reaper-Skinnew (4).jpg" id="cssImg" alt="" class="img-size">
+          <p class="imgp" id="jsp">- With CSS and HTML added to our webpage, it looks nice and displays information but the user cannot interact with it. Javascript is used to give the
+            web page functionality. The same can be said with our character at the moment, he has the certain style were after and the player model is how we want it but he doesn't do
+            anything and where's the fun in that? Giving the user control over the character opens up the whole game, similar to websites, a static website using only HTML and CSS is fine with displaying information
+            but if you want dynamic web apps in which users can interact with like facebook, youtube etc Javascript plays a huge part.
+
+          </p>
+   
+          <img src="../images/johnwick dancing.gif" alt="" id="jsImg" class="img-size">
+        </div>
+
+      <h3 class="title">Control Flow And Loops</h3>
+      <p>
+        Control flow is the order in which a computer executes lines of code in a script. Code is run from the first line to the last in order, that is only if no condition statements,
+        loops, or functions are written to name a few. Loops will repeat a block of code until a certain condition is true. Conditional statements are like a fork in the road, the computer will
+        only go down the path in which it is satisfied with and functions are a block of code that will only run when or if called. <br>
+ 
+        An example of control flow and loops in everyday life would be doing the dishes. Your day will be flowing from one thing to the next until you decide to do the dishes: <br>
+        While all the dishes aren't clean repeat these steps{ clean next dish } <br>
+        Once the dishes are complete you are now free for your next task.
+      </p>
+      <h3 class="title">DOM interaction</h3>
+      <p>
+        The DOM (Document Object Model) is the model in which objects are manipulated on an HTML document. HTML documents need to be able to be manipulated by the user in order to have
+        an interactive web page. The DOM represents elements in a HTML document as nodes, that way we can use a programming language (most likely Javascript) to grab those nodes, alter them,
+        then re-enter them into the HTML document, changing the web page in real time.
+      </p>
+      <h3 class="title">Objects vs Arrays</h3>
+      <p>Objects are a data type in most programming languages which store data in a key value pair. To access a value in an object, you first need to write the object variable followed
+        by either a dot then the key to the value you want or follow the object variable with two square brackets and a string of the key to the value you want inside it. </p><br>
+        <h3>Constructing OBJECT: let object = {key : value} || Accessing Value: let get-value = object.key or object['key']</h3><br>
+      <p>
+        Arrays are very different, they store data in a container in order starting from 0, 1, 2... until the last item. You can access an item by writing the object followed by square
+        brackets with the index of the item you want between them. This can be hard to keep track of when the array becomes large and most of the time the datas not sorted, so a lot of the
+        time you use a for loop which loops through the array accessing one piece of data at a time and if you found an item you wish to use, the computer will execute a different block of code.
+      </p>
+      <br>
+      <h3>Constructing ARRAY: let array =  [0, 1, 2, 3, 4] || Accessing ARRAY: let first-number = array[0]</h3>
+      <h3 class="title">Functions</h3>
+      <p>
+        A function is a block of code which the computer will not execute unless called upon, which has many benefits. Rather than writing the same thing
+        over and over again, you can write the block of code out once and just call that function when needed. Another benefit would be if you only wanted a block of code to be executed when
+        a certain event has happened whether that be user input, timed, HTTP response etc.   
+      </p>
+      <div class="footer"></div>
+    </div>
+    
+</body>
+</html>

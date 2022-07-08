@@ -82,6 +82,36 @@ a{
 #homepage:hover{
   cursor: pointer;
 }
-#footer{
-  padding: 2%;
+.footer{
+  height: 150px;
+}
+.img-size{
+  max-height: 214px;
+  width: 214px;
+
+}
+#analogy{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+#htmlImg{
+  grid-column: 4 / 6;
+}
+#cssImg{
+  grid-column: 4 / 6;
+  grid-row: 2 / 3;
+}
+#jsImg{
+  grid-column: 4/ 6;
+  grid-row: 3 / 4;
+ 
+}
+.imgp{
+  grid-column: 1 / 4;
+}
+.subtitle{
+  font-size: 15px;
+  text-align: center;
 }
