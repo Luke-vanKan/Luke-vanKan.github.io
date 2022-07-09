@@ -1,0 +1,175 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Space Mono', cursive;
+}
+body {
+  background-color: rgb(128, 128, 128);
+}
+:root{
+  --gray: rgb(46, 45, 45);
+}
+#header{
+  display: flex;
+  padding: 0.2rem 0;
+  justify-content: center;
+  font-family: 'Titan One', cursive;
+  background-color: var(--gray);
+}
+#header-links-container{
+
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.header-links{
+  border: 0.1rem solid wheat;
+  color: white;
+  border-radius: 10%;
+  padding: 0 ;
+
+}
+.header-links:hover{
+  cursor: pointer;
+  padding: 0 1rem;
+  color: black;
+  background-color: gray;
+  transition-duration : 500ms;
+  transition-timing-function: ease-out;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+#banner{
+  background-image: linear-gradient(var(--gray), gray);
+  text-align: center;
+  color: white;
+  padding: 3% 0;
+}
+#banner h1{
+  font-size: 5rem;
+}
+#content{
+  color: white;
+  width: 60%;
+  height: 500px;
+  margin: 3rem auto;
+  
+  display: grid;
+}
+#block{
+  width: 100%;
+  border-top: 0.1rem solid wheat;
+  border-bottom: 0.1rem solid wheat;
+  grid-row: span 2;
+  margin: 1rem 0;
+}
+.title{
+  font-size: 1.5rem;
+  padding: 2%;
+}
+#homepage{
+  color: white;
+  text-align: center;
+  border: 0.1rem solid wheat;
+  margin: 0 auto;
+  width: 7%;
+  padding: 0.5rem 0;
+}
+#homepage:hover{
+  cursor: pointer;
+}
+#footer{
+  padding: 2%;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Space Mono', cursive;
+}
+body {
+  background-color: rgb(128, 128, 128);
+}
+:root{
+  --gray: rgb(46, 45, 45);
+}
+#header{
+  display: flex;
+  padding: 0.2rem 0;
+  justify-content: center;
+  font-family: 'Titan One', cursive;
+  background-color: var(--gray);
+}
+#header-links-container{
+
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.header-links{
+  border: 0.1rem solid wheat;
+  color: white;
+  border-radius: 10%;
+  padding: 0 ;
+
+}
+.header-links:hover{
+  cursor: pointer;
+  padding: 0 1rem;
+  color: black;
+  background-color: gray;
+  transition-duration : 500ms;
+  transition-timing-function: ease-out;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+#banner{
+  background-image: linear-gradient(var(--gray), gray);
+  text-align: center;
+  color: white;
+  padding: 3% 0;
+}
+#banner h1{
+  font-size: 5rem;
+}
+#content{
+  color: white;
+  width: 60%;
+  height: 500px;
+  margin: 3rem auto;
+  font-size: 1.2rem;
+  display: grid;
+}
+#block{
+  width: 100%;
+  border-top: 0.1rem solid wheat;
+  border-bottom: 0.1rem solid wheat;
+  grid-row: span 2;
+  margin: 1rem 0;
+}
+.title{
+  font-size: 1.5rem;
+  padding: 2%;
+}
+#homepage{
+  color: white;
+  text-align: center;
+  border: 0.1rem solid wheat;
+  margin: 0 auto;
+  width: 7%;
+  padding: 0.5rem 0;
+}
+#homepage:hover{
+  cursor: pointer;
+}
+#footer{
+
+  height: 100px;
+}
