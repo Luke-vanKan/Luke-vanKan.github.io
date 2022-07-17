@@ -100,6 +100,11 @@ body {
   border-left: 0.1rem solid wheat;
   border-bottom: 0.1rem solid wheat;
 }
+#core-li-4{
+ 
+  border-right: 0.1rem solid wheat;
+  border-bottom: 0.1rem solid wheat;
+}
 #blog-link-container h3{
   font-size: 2rem;
   text-align: center;
@@ -121,4 +126,7 @@ body {
   
   color: white;
   border-radius: 10%;
+} 
+#footer{
+  height: 200px;
 }
