@@ -130,3 +130,155 @@ body {
 #footer{
   height: 200px;
 }
+
+
+
+#content{
+  color: white;
+  width: 60%;
+  margin: 3rem auto;
+  
+  display: grid;
+  
+}
+#block{
+  width: 100%;
+  border-top: 0.1rem solid wheat;
+  border-bottom: 0.1rem solid wheat;
+  grid-row: span 2;
+  margin: 1rem 0;
+}
+.title{
+  font-size: 1.5rem;
+  padding: 2%;
+}
+#homepage{
+  color: white;
+  text-align: center;
+  border: 0.1rem solid wheat;
+  margin: 0 auto;
+  width: 7%;
+  padding: 0.5rem 0;
+  width: fit-content
+}
+#homepage:hover{
+  cursor: pointer;
+}
+#block{
+  border-top: 0.1rem solid wheat;
+  border-bottom: 0.1rem solid wheat;
+  grid-row: span 2;
+  margin: 1rem 0;
+}
+.title{
+  font-size: 1.5rem;
+  padding: 2%;
+}
+
+
+.img-size{
+  max-height: 214px;
+  width: 214px;
+
+}
+#analogy{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+#htmlImg{
+  grid-column: 4 / 6;
+}
+#cssImg{
+  grid-column: 4 / 6;
+  grid-row: 2 / 3;
+}
+#jsImg{
+  grid-column: 4/ 6;
+  grid-row: 3 / 4;
+ 
+}
+.imgp{
+  grid-column: 1 / 4;
+}
+.subtitle{
+  font-size: 15px;
+  text-align: center;
+}
+
+
+@media (max-width: 425px) {
+  #content{
+    display: block;
+    width: 100%;
+  }
+  #analogy{
+    display: block;
+  }
+  img{
+    margin: 25px 0;
+  }
+  .title{
+    font-size: 1.2rem;
+    margin: 50px 0 10px 0;
+    padding: 0;
+  }
+  #banner h1{
+    font-size: 2.5rem;
+  }
+  .footer{
+    height: 100px;
+  }
+  #homepage{
+    font-size:  0.8rem;
+  }
+  #blog-link-container{
+     display: block;
+  }
+  #blog-link-container ul{
+    font-size: 1rem;
+  }
+  .psImg{
+    width: 100%;
+    height: auto;
+  }
+}
+@media(max-width: 768px) and (min-width: 425px){
+  .title{
+    font-size: 1.2rem;
+    margin: 20px 0 20px 0;
+    padding: 0;
+  }
+  #analogy{
+    display: block;
+  }
+  #blog-link-container{
+     display: block;
+  }
+  #blog-link-container ul{
+    font-size: 1rem;
+  }
+  .psImg{
+    width: 100%;
+    height: auto;
+  }
+  #content{
+    width: 90%;
+  }
+}
+
+@media(max-width: 1024px) and (min-width: 768px){
+  #blog-link-container ul{
+    font-size: 1.5rem;
+  }
+  #blog-link-container li{
+    padding: 0.9rem;
+  } 
+  #analogy{
+    display: block;
+  }
+  #content{
+    width: 100%;
+  }
+}
