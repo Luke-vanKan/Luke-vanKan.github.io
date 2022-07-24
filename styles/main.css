@@ -105,6 +105,11 @@ body {
   border-right: 0.1rem solid wheat;
   border-bottom: 0.1rem solid wheat;
 }
+#core-li-5{
+ 
+  border-left: 0.1rem solid wheat;
+  border-bottom: 0.1rem solid wheat;
+}
 #blog-link-container h3{
   font-size: 2rem;
   text-align: center;
@@ -175,6 +180,12 @@ body {
   padding: 2%;
 }
 
+#divider{
+  text-align: center;
+  margin: 50px 0;
+  border-top: 1px solid wheat;
+  border-bottom: 1px solid wheat;
+}
 
 .img-size{
   max-height: 214px;
